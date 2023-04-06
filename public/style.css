@@ -1,0 +1,225 @@
+button {
+    cursor: pointer;
+}
+body {
+    background-color: rgba(255, 255, 255, 0.911);
+}
+.all {
+    /* background-color: rgb(212, 133, 133); */
+    padding: 5px;
+    margin: 5px;
+}
+#dates {
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(228, 54, 54);
+    background-color: rgb(212, 133, 133);
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+}
+#form {
+    background-color: rgb(209, 228, 228);
+    margin-top: 0%;
+    border: 2px solid rgb(199, 226, 226);
+    padding: 5px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#checkin {
+    background-color: rgb(235, 241, 236);
+    font-size: 25px;
+    border-radius: 8px;
+    border: solid rgb(201, 230, 208);
+    padding: 5px;
+    width: 30%;
+}
+#Available {
+    background-color: rgb(141, 211, 76);
+    font-size: 25px;
+    border-radius: 8px;
+    border: solid rgb(201, 230, 208);
+    padding: 5px;
+    width: 30%;
+}
+#room {
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(228, 54, 54);
+    background-color: rgb(212, 133, 133);
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+}
+#alll {
+    background-color: aliceblue;
+    padding: 4px;
+    display: none;
+}
+.rooms {
+    display: flex;
+
+    padding: 15px;
+}
+table {
+    display: inline-block;
+    /* vertical-align: top; */
+    margin: 0 1%;
+    border-collapse: collapse;
+    width: 100%;
+}
+#first td,
+#first th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#first tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#first th {
+    padding: 12px;
+    font-weight: 800;
+    text-align: left;
+    background-color: #f2f2f2;
+    font-size: 20px;
+}
+.rooms {
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 8px;
+}
+#total {
+    border-radius: 8px;
+    font-size: 18px;
+}
+.next {
+    text-align: right;
+    margin: 15px;
+}
+#next,
+#add {
+    border: 2px solid rgb(83, 224, 83);
+    background-color: rgb(144, 214, 53);
+    font-size: 25px;
+    color: #0c0c0c;
+    border-radius: 8px;
+}
+#guest {
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(228, 54, 54);
+    background-color: rgb(212, 133, 133);
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+}
+.detail {
+    /* background-color: aliceblue; */
+    margin: 1%;
+    padding: 25px;
+    width: 70%;
+}
+.guest {
+    display: inline-flex;
+}
+#text {
+    border-radius: 5px;
+    border: #b4a6a6;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 0px;
+    width: 66%;
+}
+#one {
+    margin: 0px 25px 5px 5px;
+}
+h3 {
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-weight: 200;
+}
+#grid {
+    display: none;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 5rem;
+    background-color: rgb(209, 226, 241);
+    margin-bottom: 0%;
+}
+.detaill {
+    width: 0%;
+    margin-left: 10%;
+    margin: 3%;
+}
+#finaltable tr,
+#finaltable td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 100%;
+    display: left;
+    border-radius: 8px;
+    text-align: center;
+}
+/* .final{
+    background-color: white;
+    margin: 0%;
+} */
+#final {
+    margin-top: 0%;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(228, 54, 54);
+    background-color: rgb(212, 133, 133);
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+}
+#atlast {
+    display: none;
+    background-color: aliceblue;
+    margin-top: 0%;
+    padding: 1px;
+    font-size: 25px;
+    font-weight: 300;
+    /* display: inline-flex; */
+}
+.box {
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/** Custom style on top of default style by @dvlprroshan */
+
+#searchAvailability > form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+#searchAvailability > form .form_elm input {
+    width: 100%;
+}
+
+.invalid input {
+    border: 1px solid red !important;
+    color: red !important;
+}
+.invalid span {
+    color: red;
+    display: unset !important;
+}
